@@ -171,16 +171,6 @@
                   type="button"
                   @click="
                     () => {
-                      acceptPartial()
-                      isModalActive = false
-                    }
-                  "
-                  v-text="localeStrings?.save"
-                />
-                <button
-                  type="button"
-                  @click="
-                    () => {
                       acceptAll()
                       isModalActive = false
                     }
@@ -199,6 +189,16 @@
                     }
                   "
                   v-text="localeStrings?.declineAll"
+                />
+                <button
+                  type="button"
+                  @click="
+                    () => {
+                      acceptPartial()
+                      isModalActive = false
+                    }
+                  "
+                  v-text="localeStrings?.save"
                 />
               </div>
             </div>
