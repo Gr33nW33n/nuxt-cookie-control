@@ -110,7 +110,18 @@
                             "
                             @change="toggleCookie(cookie)"
                           />
-                          <button type="button" @click="toggleButton($event)">
+                          <button
+                            type="button"
+                            @click="toggleButton($event)"
+                            :aria-labelledby="
+                              resolveTranslatable(cookie.name, locale)
+                            "
+                            :aria-pressed="
+                              getCookieIds(localCookiesEnabled).includes(
+                                cookie.id,
+                              )
+                            "
+                          >
                             {{ getName(cookie.name) }}
                           </button>
                           <label
