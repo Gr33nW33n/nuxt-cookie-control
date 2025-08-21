@@ -10,7 +10,7 @@
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
-    "@dargmuesli/nuxt-cookie-control": "link:",
+    "@gr33nw33n/nuxt-cookie-control": "link:",
     "@nuxt/eslint-config": "1.9.0",
     "@nuxt/module-builder": "1.0.2",
     "@nuxt/schema": "4.0.3",
@@ -93,5 +93,5 @@
       ]
     }
   },
-  "version": "9.1.1"
+  "version": "9.1.2"
 }

@@ -31,7 +31,7 @@ importers:
       '@commitlint/config-conventional':
         specifier: 19.8.1
         version: 19.8.1
-      '@dargmuesli/nuxt-cookie-control':
+      '@gr33nw33n/nuxt-cookie-control':
         specifier: 'link:'
         version: 'link:'
       '@nuxt/eslint-config':
