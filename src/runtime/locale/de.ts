@@ -18,4 +18,5 @@ export default {
   manageCookies: 'Mehr erfahren und anpassen',
   save: 'Speichern',
   settingsUnsaved: 'Es gibt nicht gespeicherte Einstellungen',
+  info: 'Weitere Informationen zu den eingesetzten Cookies und insbesondere, wie Sie Ihre Einwilligung widerrufen können, finden Sie unter Datenschutz.',
 } as LocaleStrings

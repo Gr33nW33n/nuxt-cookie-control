@@ -76,6 +76,7 @@ export interface LocaleStrings {
   manageCookies: string
   save: string
   settingsUnsaved: string
+  info: string
 }
 
 export interface ModuleOptions {

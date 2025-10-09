@@ -177,11 +177,7 @@
                   </ul>
                 </template>
               </template>
-              <div>
-                Weitere Informationen zu den eingesetzten Cookies und
-                insbesondere, wie Sie Ihre Einwilligung widerrufen können,
-                finden Sie unter <a href="/datenschutz">Datenschutz</a>.
-              </div>
+              <div v-html="localeStrings?.info"></div>
               <div class="cookieControl__ModalButtons">
                 <button
                   type="button"
