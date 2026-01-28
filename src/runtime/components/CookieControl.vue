@@ -3,7 +3,7 @@
     <aside class="cookieControl">
       <transition :name="`cookieControl__Bar--${moduleOptions.barPosition}`">
         <div
-          v-if="!isConsentGiven && !moduleOptions.isModalForced"
+          v-if="!isConsentGiven && !moduleOptions.isModalForced && !isBarHidden"
           :class="`cookieControl__Bar cookieControl__Bar--${moduleOptions.barPosition}`"
         >
           <div class="cookieControl__BarContainer">
@@ -246,6 +246,7 @@ const {
   cookiesEnabledIds,
   isConsentGiven,
   isModalActive,
+  isBarHidden,
   moduleOptions,
 } = useCookieControl()
 const nuxtApp = useNuxtApp()

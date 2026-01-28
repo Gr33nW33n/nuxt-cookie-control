@@ -173,6 +173,7 @@ export interface State {
   cookiesEnabledIds: Ref<string[] | undefined>
   isConsentGiven: Ref<boolean | undefined>
   isModalActive: Ref<boolean>
+  isBarHidden: Ref<boolean>
   locale: Ref<Locale>
   moduleOptions: ModuleOptions
 }
